@@ -12,16 +12,16 @@ const About = () => {
     threshold: 0.5
   });
   return (
-    <section className="section" id="about" ref={ref}>
+    <section className="section mb-10 lg:mb-1" id="about" ref={ref}>
       <div className="container mx-auto ">
-        <div className="flex flex-col gap-y-10 lg:flex-row lg:items-center lg:gap-x-20 lg:gap-y-0 h-screen">
+        <div className="flex flex-col gap-y-10 lg:flex-row lg:items-center lg:gap-x-20 lg:gap-y-0 ">
           <motion.div
           variants={fadeIn('right, 2')}
           initial="hidden"
           whileInView={"show"}
           viewport={{once:false, amount: 0.3}}
-          className="flex-1 bg-about bg-contain bg-no-repeat h-[640px]
-          mix-blend-darken bg-top"></motion.div>
+          className="flex-1 bg-about bg-contain bg-no-repeat  h-[600px]
+         bg-center"></motion.div>
 
           <motion.div className="flex-1"
           variants={fadeIn('left, 0.1')}
@@ -39,7 +39,7 @@ const About = () => {
               kmcksmkmcks
               kcmksmckmskmckmskmcksmkkksmk
             </p>
-            <div>
+                      
               <div className=" flex gap-x-6 lg:gap-10 mb-12 mt-3">
                 <div className="text-[48px] font-tertiary text-gradient mb-2">
                   {
@@ -65,7 +65,8 @@ const About = () => {
                 <div className="font-primary text-sm tracking-[2px]">Expectativas <br /> infinito
 
                 </div>
-              </div>
+              
+            
             </div>
             <div className="flex gap-x-8 items-center">
               <button className="btn btn-lg">Contacto</button>
@@ -73,7 +74,9 @@ const About = () => {
 
               </a>
             </div>
-          </motion.div>
+            </motion.div> 
+            
+          
         </div>
       </div>
     </section>
