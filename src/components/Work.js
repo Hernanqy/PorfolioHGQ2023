@@ -13,7 +13,12 @@ const Work = () => {
     <section className="section" id="work">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row gap-x-10">
-          <div className="flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0">
+          <motion.div
+          variants={fadeIn('right',0.3)}
+          initial='hidden'
+          whileInView={'show'}
+          viewport={{once: false, amount: 0.3}}
+          className="flex-1 flex flex-col gap-y-12 mb-10 lg:mb-11">
             <div>
               <h2 className="h2 leading-tight text-cyan-600 ">
                 Mis ultimos
@@ -41,8 +46,13 @@ const Work = () => {
                 <span className="text-3xl text-white">Titulo del Proyecto</span>
               </div>
             </div>
-          </div>
-          <div className="flex-1 flex flex-col gap-y-10">
+          </motion.div>
+          <motion.div
+          variants={fadeIn('left',0.3)}
+          initial='hidden'
+          whileInView={'show'}
+          viewport={{once: false, amount: 0.3}}
+          className="flex-1 flex flex-col gap-y-10">
           <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all first-line:duration-300"></div>
               <img
@@ -73,7 +83,7 @@ const Work = () => {
                 <span className="text-3xl text-white">Titulo del Proyecto</span>
               </div>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>
