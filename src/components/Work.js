@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 import { fadeIn } from "../variants";
 
-import Img1 from "../assets/portfolio-img1.png";
+import Img1 from "../assets/portada_malon.png";
 import Img2 from "../assets/portada_malon.png";
 import Img3 from "../assets/portfolio-img3.png";
 
@@ -29,7 +29,7 @@ const Work = () => {
                 lorem kdlkasldklkklckslck mcsocmo mocmsomc
                 kmcskmcksmckmskcmkcmksmcksmcksmckmskcm mcksmcksmckmskcmksmcksmc.
               </p>
-              <button className="btn btn-sm">Ver todos mis proyectos</button>
+              
             </div>
             <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all first-line:duration-300"></div>
@@ -39,7 +39,7 @@ const Work = () => {
                 alt=""
               />
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50 ">
-                <span className="text-gradient"><a href='https://hernanqy-malon.vercel.app/'>Desarrollo Web</a></span>
+                <button className="btn btn-sm"><a href='https://hernanqy-malon.vercel.app/'>Ver el proyecto</a></button>
                 
               </div>
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50 ">
