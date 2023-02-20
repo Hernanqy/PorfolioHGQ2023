@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 
 import Img1 from "../assets/portfolio-img1.png";
-import Img2 from "../assets/portfolio-img2.png";
+import Img2 from "../assets/portada_malon.png";
 import Img3 from "../assets/portfolio-img3.png";
 
 const Work = () => {
@@ -39,11 +39,11 @@ const Work = () => {
                 alt=""
               />
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50 ">
-                <span className="text-gradient"><a href='https://hernanqy-malon.vercel.app/'>Malon Grande</a></span>
+                <span className="text-gradient"><a href='https://hernanqy-malon.vercel.app/'>Desarrollo Web</a></span>
                 
               </div>
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50 ">
-                <span className="text-3xl text-white">Titulo del Proyecto</span>
+                <span className="text-3xl text-white">Malon Grande</span>
               </div>
             </div>
           </motion.div>
