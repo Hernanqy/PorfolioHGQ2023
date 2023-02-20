@@ -39,7 +39,7 @@ const Work = () => {
                 alt=""
               />
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50 ">
-                <span className="text-gradient">UX/UI Design</span>
+                <span className="text-gradient"><link src='https://hernanqy-malon.vercel.app/'>Malon Grande</link></span>
                 
               </div>
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50 ">
