@@ -49,7 +49,7 @@ const Banner = () => {
            whileInView={'show'}
            viewport={{ once: false, amount: 0.7}}
            className='mb-8 max-w-lg mx-auto lg:mx-center'>
-              Lorem ipsum dolor sit amet, consectetur
+              Aprender para alcanzar objetivos en equipo.
                </motion.p>
                <motion.div
                variants={fadeIn('up',0.6)} 
