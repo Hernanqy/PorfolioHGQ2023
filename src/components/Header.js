@@ -11,7 +11,7 @@ const Header = () => {
         <a href='#'>
           <img className='w-20 rounded-2xl'src={Logo}  alt=''/>
         </a>
-        <button className='btn btn-sm'>Work with </button>
+        <button className='btn btn-sm'>2023 </button>
       </div>
     </div>
   </header>

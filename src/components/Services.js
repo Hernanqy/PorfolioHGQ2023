@@ -9,18 +9,18 @@ import {fadeIn} from '../variants'
 const services = [ 
   {
 name: 'Desarrollador Front End Full Stack',
-discription: 'lorem ipsum dolor sit amet, consectetur adipiscing',
-link : 'learn more',
+discription: 'Realice mis estudios en la Universidad Nacional del Centro (UTN)',
+link : 'Saber mas',
 },
   {
 name: 'React',
-discription: 'lorem ipsum dolor sit amet, consectetur adipiscing',
-link : 'learn more',
+discription: 'Realice mi especializacion en CoderHouse',
+link : 'Saber mas',
 },
   {
 name: 'Boostrap-Material UI-Taildwind',
-discription: 'lorem ipsum dolor sit amet, consectetur adipiscing',
-link : 'learn more',
+discription: 'Realice esta especializacion en CoderHouse',
+link : 'Saber mas',
 },
 ]
 
@@ -45,9 +45,11 @@ const Services = () => {
       whileInView={'show'}
       viewport= {{once:false, amount: 0.3}}>
         
-        <h2 className='h2 text-cyan-400 mb-6'>What I do</h2>
+        <h2 className='h2 text-cyan-400 mb-6'>Lo que me apasiona</h2>
       <h3 className='h3 max-w-[455px] mb-16'>
-        Soy un desarrolador web full stack independiente con 2 años de experiencia
+        Soy un desarrolador web full stack independiente con 2 años de experiencia.
+        En mi formacion adquiri conocimientos sobre :
+        HTML-CSS3-JAVASCRIPT-MONGO DB-MYSQL-BOOSTRAP-GITHUB-REACT-NODEJS.
       </h3>
       <button className='btn btn-sm'>Mi trabajo</button>
       </motion.div>
