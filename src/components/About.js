@@ -33,9 +33,9 @@ const About = () => {
             <h2 className="h2 text-cyan-300">Sobre mi</h2>
             <h3 className="h3 mb-4">Formacion constante con espiritu creativo.
             </h3>
-            <p className="mb-6">Desde muy joven el mundo de la tecnologia me apasiona <br /> siempre estuve vinculado con ella de una manera u otra, por razones economicas tuve que realizar mucho trabajos no vinculados con el area pero ellos me dieron mucha expericia de vida.
+            <p className="mb-6">Desde muy joven el mundo de la tecnologia me apasiona y siempre estuve vinculado con ella de una manera u otra, por razones economicas tuve que realizar mucho trabajos no vinculados con el area pero ellos me dieron mucha expericia de vida.
             Hace unos años pude lograr capacitarme en la prestigiosa Universidad Tecnica Nacional y sigo haciendolo permanentemente.
-            Soy padre de tres niños a los que amo profundamente y paso mi tiempo libre con ellos.
+            Soy casado, padre de tres niños a los que amo profundamente y paso mi tiempo libre con ellos.
             Me gusta el futbol y las reuniones de amigos.
             
             </p>
