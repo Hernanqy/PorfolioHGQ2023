@@ -61,7 +61,7 @@ const Work = () => {
                 alt=""
               />
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50 ">
-              <button className="btn btn-sm"><a href='https://pre-entrega1-hernan-quiroga.vercel.app/'>Ver el proyecto</a></button>
+              <button className="btn btn-sm"><a href='https://gravita-v2.vercel.app/'>Ver el proyecto</a></button>
                 
               </div>
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50 ">
