@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 
 import Img1 from "../assets/portada_malon.png";
-import Img2 from "../assets/prewGravita.png";
+import Img2 from "../assets/portadagracita.png";
 import Img3 from "../assets/portfolio-img3.png";
 
 const Work = () => {
